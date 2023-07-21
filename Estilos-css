@@ -1,0 +1,168 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#1e1e1e;
+    margin: 0;
+    padding: 0;
+}.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+  /* Estilos del encabezado */
+header {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+}
+.secciontitulo{
+background-color: black;
+color: white;
+padding: 20px;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.navbar {
+    display: flex;
+    align-items:center
+}
+.navbar .logo {
+    margin-right: 10px; 
+}
+.img
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(tranquera.png) no-repeat center center fixed;
+    background-size: cover;
+}
+  /* Estilos de la barra de navegación */
+nav {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #6c330c;
+}
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    text-align: center;
+    background-color:#1e1e1e;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.seccionmapa {
+    background-color:#1e1e1e;
+    text-align: center;
+}
+.imgmapa {
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+    height: 80vh;
+}
+.maps{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+footer p {
+    margin-top: 40px;
+} 
+/* Estilos de la sección Productos y Servicios*/
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.product h2 {
+    margin-bottom: 10px;
+}
+.product p {
+    margin-bottom: 20px;
+}
+/* Estilos de la sección Contacto*/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+label,
+input,textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+input,textarea {
+    width: 100%;
+    padding: 5px;
+}
+input[type="submit"] {
+    background-color:#1e1e1e ;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:#1e1e1e;
+}
