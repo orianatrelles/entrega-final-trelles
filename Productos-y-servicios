@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos y Servicios</title>
+    <link rel="icon" type="imagen" href="imagenes/imagen1.jpg">
+    <link rel="stylesheet" href="css estilos/estilos.css">
+</head>
+<body>
+    <h1>Productos Rurales</h1>
+<div class="product-container">
+    <div class="product">
+<img src= "imagenes/imagen4.jpg"alt="Tranquera">
+<h2>Tranqueras</h2>
+<p>Descripción del producto</p>
+</div>
+<div class="product">
+<img src="imagenes/imagen4.jpg" alt="Tranquera">
+<h2>Producto 2</h2>
+<p>Descripción del producto</p>
+</div>
+<div class="product">
+    <img src="imagenes/imagen4.jpg" alt="Tranquera">
+<h2>Producto 3</h2>
+<p>Descripción del producto</p>
+    </div>
+</div>
+</body>
+</html>
